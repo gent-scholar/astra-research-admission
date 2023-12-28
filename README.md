@@ -1,13 +1,13 @@
-# astra-research-admission
-This is a small research exercise for Owain Evan's stream for the Astra Research 2023 programme.
+# Faithfulness-research
+This is a small research exercise for investigating faithfulness in LLM models.
 
-This project was cut short at the end leaving me at step 1 unfortunately. I apologise in advance but will outline below my conceptual thinking.
+This project is currently still work-in-progress, so I am happy for feedback and suggestions anytime.
 
-My research implementation would have been:
+My research implementation pathway:
 
 *Step 1. Find classification tasks that are learnable in-context*
 
-I used OpenAI's GPT-3 model and the AG News dataset to test the hidden classification rules.
+I used Zephyrs-7B model and the AG News dataset to test the hidden classification rules. I am happy for more classification rules.
 1. The description contains two upper case words. (one at the start of the sentence)
 2. The description contains no numbers.
 3. The description contains two upper case words back to back. i.e. Christiano Ronaldo
@@ -22,7 +22,7 @@ For example:
 2. What rule applies here?
 3. What word is important here?
 4. How many numbers are important in the rule?
-5. 
+
 
 *Step 3. Investigating faithfulness*
 
